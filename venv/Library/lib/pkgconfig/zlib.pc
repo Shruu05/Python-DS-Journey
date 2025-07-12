@@ -1,0 +1,13 @@
+prefix=C:/udemy/python/venv/Library
+exec_prefix=C:/udemy/python/venv/Library
+libdir=C:/udemy/python/venv/Library/lib
+sharedlibdir=C:/udemy/python/venv/Library/lib
+includedir=C:/udemy/python/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

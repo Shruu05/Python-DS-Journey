@@ -1,0 +1,11 @@
+<html>
+<h1>
+    Based on the marks you have {{results}}
+</h1>
+
+{% if results >= 50 %}
+<h1> You have passed with marks {{results}} </h1>
+{% else %}
+<h1> You have failed with marks {{results}} </h1>
+{% endif %}
+</html>
